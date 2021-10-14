@@ -10,8 +10,8 @@
     <script src="https://kit.fontawesome.com/26f92a995a.js" crossorigin="anonymous"></script>
     <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
     <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
-    <link rel="stylesheet" href="<?php base_url();?>public/css/menu.css">
-    <link rel="icon" href="<?php base_url();?>public/img/codep.png">
+    <link rel="stylesheet" href="<?= base_url('assets/css/menu.css');?>">
+    <link rel="icon" href="<?= base_url('assets/img/codep.png');?>">
     <title>Reporteria Wamba</title>
 </head>
 <body>
@@ -30,7 +30,7 @@
         <nav class="nav">
             <div>
                 <a href="/reportes" class="nav__logo">
-                    <img src="<?php base_url();?>public/img/codep.png" style="height: 24px; width: 24px;">
+                    <img src="<?= base_url('assets/img/codep.png');?>" style="height: 24px; width: 24px;">
                     <span class="nav__logo-name">Wamba-Reportes</span>
                 </a>
 
